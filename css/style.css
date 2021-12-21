@@ -120,7 +120,7 @@ a:hover{
 .h1_rates{
     display: flex;
     justify-content: space-around;
-    padding: 1rem;
+    padding-top: 3rem;
     font-size: 10px;
     font-weight: 700;
     background: -webkit-linear-gradient(#FD749B,#281AC8);
@@ -128,5 +128,30 @@ a:hover{
     -webkit-text-fill-color: transparent;
 }
 .rates hr{
-    margin-top: 71px;
+    margin-top: 40px;
+}
+.list_btc{
+    display: flex;
+    justify-items:start;
+    align-items: center;
+}
+.list_btc_li{
+    padding: 1rem;
+    font-weight: 400;
+}
+.btc_buy{
+    padding: 1rem;
+}
+.list_eth{
+    display: flex;
+    justify-items: start;
+    align-items: centers;
+    padding: 1rem;
+}
+.list_eth_li{
+    padding: 1rem;
+    font-weight: 400;
+}
+.eth_buy{
+    padding: 1rem;
 }
