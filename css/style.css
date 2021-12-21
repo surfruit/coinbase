@@ -47,7 +47,8 @@ a:hover{
 .header_content{
     background:linear-gradient(#FD749B,#281AC8);
     display: flex;
-    justify-content: space-around   ;    
+    justify-content: space-around;
+     
 }
 .header_text{
     color: white;
@@ -70,9 +71,62 @@ a:hover{
     color: linear-gradient(#FD749B,#281AC8);
 }
 .header_content img{
-    margin-top: 60px;
+    margin-top: 80px;
 }
 .welcome_to_coin{
+    padding: 5rem;
     display: flex;
     justify-content: center;
+}
+.welcome_to_coin hr{
+    width: 50px;
+    height: 5px;
+    background-color:#FD749B;
+    border-radius: 50px;
+    border: none;
+}
+.welcome_h1{
+    font-size: 28px;
+    background: -webkit-linear-gradient(#FD749B,#281AC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.welcome_content p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 4rem;
+}
+.welcome_content button{
+    margin-top: 3rem;
+    width: 157px;
+    height: 54px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(#FD749B,#281AC8);
+}
+.welcome_content a{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.rates{
+    margin: 0 auto;
+    width: 1158px;
+    height: 368px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 17px 28px rgba(0,0,0,0.25), 0 17px 10px rgba(0,0,0,0.22);
+}
+.h1_rates{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 10px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#FD749B,#281AC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.rates hr{
+    margin-top: 71px;
 }
