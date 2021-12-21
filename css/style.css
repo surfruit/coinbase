@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.main_navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.nav ul{
+    display: flex;
+
+}
+.nav li{
+    padding:1rem;
+}
+.drop_menu{
+    display: none;
+}
+.sell_login ul{
+    display: flex;
+    justify-content: space-between;
+}
+.sell_login li{
+    padding: 1rem;
+}
+.sell_login button{
+    width: 157px;
+    height: 54px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background:linear-gradient(#FD749B,#281AC8);
+}
+.sell_login a{
+    color: white;
+}
+.header_content{
+    background:linear-gradient(#FD749B,#281AC8);
+    display: flex;
+    justify-content: space-around   ;    
+}
+.header_text{
+    color: white;
+    width: 529px;
+    margin-left: 215px;
+    font-size: 18px;
+    margin-top: 142px;
+}
+.header_text p{
+    font-weight: 400;
+}
+.header_text button{
+    margin-top: 1rem;
+    width: 157px;
+    height: 54px;
+    border-radius: 30px;
+   border: none;
+}
+.header_text a{
+    color: linear-gradient(#FD749B,#281AC8);
+}
+.header_content img{
+    margin-top: 60px;
+}
+.welcome_to_coin{
+    display: flex;
+    justify-content: center;
+}
