@@ -111,6 +111,7 @@ a:hover{
 }
 .rates{
     margin: 0 auto;
+    margin-top: 10vh;
     width: 1158px;
     height: 368px;
     background-color: white;
@@ -163,5 +164,59 @@ a:hover{
     justify-content: space-between;
 }
 .experience img{
-    margin-right: 3rem;
+    margin-right: 171px;
 }
+.experience{
+    margin-left: 10vw;
+}
+.experience_content{
+    margin-top: 9vh;
+}
+.experience_content h1{
+    font-size: 28px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#FD749B,#281AC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.experience_content hr{
+    width: 50px;
+    height: 5px;
+    background-color:#FD749B;
+    border-radius: 50px;
+    border: none;
+}
+.experience_content p{
+    padding-top: 5vw;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.experience_content button{
+    margin-top: 8vh;
+    width: 157px;
+    height: 54px;
+    border: none;
+    border-radius: 25px;
+    background:linear-gradient(#FD749B,#281AC8);
+}
+.experience_content a{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.trade_from_anywhere{
+    margin: 0 auto;
+    background:linear-gradient(#FD749B,#281AC8);
+    margin-top: 20vh;
+}
+.trade_from_container{
+    width: 980px;
+    height: 504px;
+    background: white;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-left: 14vw;
+    margin-top: 30px;
+    }
