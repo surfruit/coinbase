@@ -134,6 +134,7 @@ a:hover{
     display: flex;
     justify-items:start;
     align-items: center;
+    margin-left: 0.5rem;
 }
 .list_btc_li{
     padding: 1rem;
@@ -144,9 +145,9 @@ a:hover{
 }
 .list_eth{
     display: flex;
-    justify-items: start;
-    align-items: centers;
-    padding: 1rem;
+    justify-items:start;
+    margin-left: 1rem;
+    align-items: center;
 }
 .list_eth_li{
     padding: 1rem;
@@ -154,4 +155,13 @@ a:hover{
 }
 .eth_buy{
     padding: 1rem;
+}
+.experience{
+    margin: 0 auto;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+.experience img{
+    margin-right: 3rem;
 }
