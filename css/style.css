@@ -214,9 +214,59 @@ a:hover{
 .trade_from_container{
     width: 980px;
     height: 504px;
+    margin-top: 2rem;
     background: white;
     box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     margin-left: 14vw;
-    margin-top: 30px;
     }
+.footer{
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    color:rgba(162, 162, 162, 1);
+}
+.logo_text{
+    color: #A2A2A2;
+    font-size: 14px; 
+    font-weight: 400;
+    margin-top: 32px;
+}
+.footer_logo{
+    padding-top: 81px;
+    margin-left: 80px;
+}
+.logo_links ul{
+    margin: 0;
+    display: flex;
+    justify-self: flex-start;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 18px;
+    border: 0;
+    padding: 0;
+}
+.logo_links li{
+    padding: 1rem;
+}
+.logo_text p{
+    height: 80px;
+}
+.designed_by{
+    color: rgba(152, 152, 152, 1);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 69px;
+}
+.coinbase_link a{
+    color:rgba(162, 162, 162, 1);
+}
+.coinbase_link{
+    margin-top: 69px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.coinbase_link h1{
+    color: white;
+}
