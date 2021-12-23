@@ -6,6 +6,13 @@
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
 }
+hr{
+    width: 50px;
+    height: 5px;
+    background-color: #FD749B;
+    border-radius: 50px;
+    border: none;
+}
 
 a {
     color: black;
@@ -59,7 +66,7 @@ a:hover {
 .header_content {
     background: url('../img/waves.svg');
     background-repeat:no-repeat;
-    background-size: cover;
+   background-size: 180%;
     display: flex;
     justify-content: space-around;
 
@@ -116,6 +123,7 @@ a:hover {
     font-weight: 400;
     font-size: 16px;
     margin-top: 4rem;
+    line-height: 40px;
 }
 
 .welcome_content button {
@@ -229,6 +237,7 @@ a:hover {
     padding-top: 5vw;
     font-size: 16px;
     font-weight: 400;
+    line-height: 40px;
 
 }
 
@@ -331,6 +340,84 @@ a:hover {
     font-weight: 700;
     font-style: normal;
 }
+
+.blog{
+    margin-top: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+.blog h1{
+    font-size: 28px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#FD749B, #281AC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.blog hr{
+    margin-top: 17px;
+}
+.blog p{
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.blog ul{
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blog_news{
+    margin-top: 50px;
+    width: 465px;
+    height: 358px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border: 1px solid #FD749B;
+}
+.blog_news li{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 44px;
+}
+.blog_news h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 19px;
+    width: 308px;
+    margin-left: 2rem;
+}
+.blog_news p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    width:  354px;
+    margin-top: 15px;
+    margin-left: 2rem;
+}
+
+.blog_news button{
+    margin-top: 23px;
+    margin-left: 2rem;
+    width: 127px;
+    height: 43.68px;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-radius: 100px;
+    border: none;
+}
+.blog_news a{
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+
 
 
 .footer {
